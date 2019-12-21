@@ -4,6 +4,5 @@ echo "Input a :"
 read a
 echo "Input b:"
 read b
-let "res=a/b"
-echo $res
+echo "$a $b" | awk '{printf "%.2f \n", $1/$2}'
 
