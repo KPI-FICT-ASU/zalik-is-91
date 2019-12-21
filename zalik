@@ -1,0 +1,9 @@
+#!/bin/bash
+#divide two numbers
+echo "Input a :"
+read a
+echo "Input b:"
+read b
+let "res=a/b"
+echo $res
+
