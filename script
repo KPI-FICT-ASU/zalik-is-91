@@ -1,0 +1,4 @@
+#!/bin/bash
+for file in $(find -type f -name "*.txt"); do
+rm $file
+done
