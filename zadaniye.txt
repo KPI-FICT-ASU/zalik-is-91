@@ -1,0 +1,1 @@
+Copy all "txt" files in directory, which will be chosen by user
